@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+#img-slider {
+    width: 100%;
+}
+
+#slides {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+    visibility: hidden;
+}
+
+#previous {
+    margin-left: 2rem;
+    position: relative;
+    top: 10rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#next {
+    position: relative;
+    margin-right: 2rem;
+    float: right;
+    clear: both;
+    bottom: 10rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img.display {
+    visibility: visible;
+}
